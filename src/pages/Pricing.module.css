@@ -1,0 +1,39 @@
+.pricing {
+  margin: 2.5rem;
+  min-height: calc(100vh - 5rem);
+  background-color: var(--color-dark--1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pricing section {
+  margin: 6rem auto;
+  max-width: 65%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 7rem;
+  align-items: center;
+}
+
+.pricing div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pricing h2 {
+  font-size: 4.2rem;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+}
+
+.pricing p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.pricing img {
+  width: 100%;
+}

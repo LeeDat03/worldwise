@@ -1,0 +1,58 @@
+.homepage {
+  margin: 2.5rem;
+  min-height: calc(100vh - 5rem);
+  padding: 2.5rem;
+  background-image: linear-gradient(
+      rgba(36, 42, 46, 0.8),
+      rgba(36, 42, 46, 0.8)
+    ),
+    url(../../public/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.homepage > div {
+  min-height: calc(100vh - 10rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.homepage h1 {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 1.2rem;
+}
+
+.homepage h2 {
+  width: 80%;
+  font-size: 1.8rem;
+  color: var(--color-light--1);
+  margin-bottom: 3.2rem;
+}
+
+.homepage button {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1.6rem 3.6rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s, color 0.1s;
+}
+
+.homepage button:hover {
+  background-color: var(--color-brand--2-light);
+  transform: translatey(-0.5rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.homepage button:active {
+  background-color: var(--color-brand--2-light);
+  transform: translatey(0.5rem);
+}
