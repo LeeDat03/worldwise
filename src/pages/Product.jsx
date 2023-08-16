@@ -1,10 +1,13 @@
+import NavBar from "./NavBar";
 import styles from "./Product.module.css";
 
 function Product() {
   return (
     <div className={styles.product}>
+      <NavBar />
+
       <section>
-        <img src="../../public/img-1.jpg" alt="Image 1" className="shake" />
+        <img src="/img-1.jpg" alt="Image 1" className="shake" />
         <div>
           <h2>About WorldWide.</h2>
           <p>

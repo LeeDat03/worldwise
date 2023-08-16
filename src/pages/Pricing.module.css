@@ -2,21 +2,20 @@
   margin: 2.5rem;
   min-height: calc(100vh - 5rem);
   background-color: var(--color-dark--1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 
 .pricing section {
-  margin: 6rem auto;
-  max-width: 65%;
+  margin: 0rem auto;
+  padding: 5rem 0;
+  max-width: 60%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  gap: 7rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 10rem;
   align-items: center;
 }
 
-.pricing div {
+.pricing section div {
   display: flex;
   flex-direction: column;
   width: 100%;

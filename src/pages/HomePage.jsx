@@ -1,9 +1,12 @@
 import styles from "./HomePage.module.css";
+import NavBar from "./NavBar";
 
 function HomePage() {
   return (
     <div className={styles.homepage}>
-      <div>
+      <NavBar />
+
+      <section>
         <h1>
           You travel the world.
           <br />
@@ -14,8 +17,8 @@ function HomePage() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
-        <button className="btn">Start tracking now</button>
-      </div>
+        <button className="btn btn--green">Start tracking now</button>
+      </section>
     </div>
   );
 }

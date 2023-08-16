@@ -28,6 +28,20 @@ body {
   color: var(--color-light--2);
 }
 
+a:link,
+a:visited {
+  color: currentColor;
+  text-decoration: none;
+}
+
+a.active {
+  color: var(--color-brand--2);
+}
+
+.btn > a.active {
+  color: var(--color-dark--1);
+}
+
 .btn {
   display: block;
   font-family: inherit;
@@ -38,6 +52,18 @@ body {
   padding: 1.2rem 1.6rem;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+.btn--green {
+  background-color: var(--color-brand--2);
+  color: var(--color-dark--1);
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn--green:hover {
+  background-color: var(--color-brand--2-light);
 }
 
 /* ANIMATION */

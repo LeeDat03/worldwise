@@ -1,0 +1,44 @@
+.navbar {
+  margin: 0rem auto;
+  padding: 3rem 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar div {
+  height: 5.2rem;
+}
+
+.navbar img {
+  height: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 2rem;
+  margin-left: auto;
+}
+
+.navbar li {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.navbar li a {
+  padding: 0.6rem 2.4rem;
+}
+
+.navbar li:hover {
+  transform: translatey(-0.5rem);
+}
+
+.navbar li:active {
+  transform: translateY(0);
+}

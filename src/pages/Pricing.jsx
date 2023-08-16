@@ -1,8 +1,11 @@
+import NavBar from "./NavBar";
 import styles from "./Pricing.module.css";
 
 function Pricing() {
   return (
     <div className={styles.pricing}>
+      <NavBar />
+
       <section>
         <div>
           <h2>
@@ -16,7 +19,7 @@ function Pricing() {
             laboriosam fugit voluptatem iste.
           </p>
         </div>
-        <img src="../../public/img-2.jpg" alt="Image 1" className="flicker" />
+        <img src="/img-2.jpg" alt="Image 1" className="flicker" />
       </section>
     </div>
   );
