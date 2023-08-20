@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import styles from "./Login.module.css";
 import NavBar from "./NavBar";
 
@@ -15,7 +16,7 @@ function Login() {
           <label htmlFor="password">Password</label>
           <input id="password" type="password" />
         </div>
-        <button className="btn btn--green">Login</button>
+        <Button type="btn--green">Login</Button>
       </form>
     </div>
   );

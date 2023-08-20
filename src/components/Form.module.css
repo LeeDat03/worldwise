@@ -1,0 +1,16 @@
+.form {
+  background-color: var(--color-dark--2);
+  width: 90%;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form > div:last-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

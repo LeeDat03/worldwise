@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 import styles from "./HomePage.module.css";
 import NavBar from "./NavBar";
+import Button from "../components/Button";
 
 function HomePage() {
   return (
@@ -17,7 +19,10 @@ function HomePage() {
           of. Never forget your wonderful experiences, and show your friends how
           you have wandered the world.
         </h2>
-        <button className="btn btn--green">Start tracking now</button>
+
+        <Link to="app">
+          <Button type="btn--green">Start tracking now</Button>
+        </Link>
       </section>
     </div>
   );

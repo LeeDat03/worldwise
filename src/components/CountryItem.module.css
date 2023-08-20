@@ -1,0 +1,28 @@
+.countryItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-dark--2);
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  border-left: 5px solid var(--color-brand--1);
+}
+
+.countryItem > span {
+  height: 3rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countryItem > span img {
+  width: 100%;
+}
+
+.countryItem h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.app_nav {
+  list-style: none;
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  background-color: var(--color-dark--2);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.app_nav a:link,
+.app_nav a:visited {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1.2rem 2.4rem;
+}
+
+.app_nav a:global(.active) {
+  background-color: var(--color-dark--0);
+  color: currentColor;
+}

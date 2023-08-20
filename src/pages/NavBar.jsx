@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
 import styles from "./NavBar.module.css";
+import Logo from "../components/Logo";
+import Button from "../components/Button";
 
 function NavBar() {
   return (
     <nav className={styles.navbar}>
       <NavLink to="/">
-        <div>
-          <img src="logo.png" alt="Logo" />
-        </div>
+        <Logo />
       </NavLink>
       <ul>
         <li>
@@ -16,8 +16,10 @@ function NavBar() {
         <li>
           <NavLink to="/product">Product</NavLink>
         </li>
-        <li className="btn btn--green">
-          <NavLink to="/login">Login</NavLink>
+        <li>
+          <Button type="btn--green">
+            <NavLink to="/login">Login</NavLink>
+          </Button>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,9 @@
+.citylist {
+  height: 50vh;
+  overflow: auto;
+  list-style: none;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

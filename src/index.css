@@ -38,32 +38,36 @@ a.active {
   color: var(--color-brand--2);
 }
 
-.btn > a.active {
+button > a.active {
   color: var(--color-dark--1);
 }
 
-.btn {
-  display: block;
+/* FORM */
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+textarea,
+input {
+  font-size: inherit;
   font-family: inherit;
-  font-size: 1.6rem;
-  color: inherit;
-  border: none;
-  border-radius: 1rem;
-  padding: 1.2rem 1.6rem;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.btn--green {
-  background-color: var(--color-brand--2);
   color: var(--color-dark--1);
-  text-transform: uppercase;
-  font-weight: 600;
-  transition: all 0.3s;
+  background-color: var(--color-light--3);
+  padding: 1.2rem 1.6rem;
+  border-radius: 1rem;
+  border: none;
 }
 
-.btn--green:hover {
-  background-color: var(--color-brand--2-light);
+textarea,
+input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+button {
+  align-self: flex-start;
 }
 
 /* ANIMATION */

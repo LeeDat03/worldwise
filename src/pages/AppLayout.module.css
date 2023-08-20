@@ -1,0 +1,6 @@
+.app_layout {
+  margin: 2.5rem;
+  height: calc(100vh - 5rem);
+  display: grid;
+  grid-template-columns: 56rem 1fr;
+}

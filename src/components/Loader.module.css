@@ -1,0 +1,25 @@
+.loader {
+  margin-top: 5rem;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 22.4px;
+  color: #00c46a;
+  border: 2.2px solid;
+  position: relative;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  margin: 2.2px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: progress-pf82op 2s infinite;
+}
+
+@keyframes progress-pf82op {
+  100% {
+    inset: 0;
+  }
+}
