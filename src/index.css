@@ -42,11 +42,29 @@ button > a.active {
   color: var(--color-dark--1);
 }
 
+/* DATE */
+.react-datepicker__month-container {
+  float: left;
+  /* scale: 1.2; */
+  scale: 1.2;
+  padding: 2rem;
+}
+
+.react-datepicker-wrapper input {
+  width: 100%;
+}
+
 /* FORM */
 form > div {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+textarea,
+input:focus {
+  outline: none;
+  background-color: #fff;
 }
 
 textarea,
@@ -58,12 +76,6 @@ input {
   padding: 1.2rem 1.6rem;
   border-radius: 1rem;
   border: none;
-}
-
-textarea,
-input:focus {
-  outline: none;
-  background-color: #fff;
 }
 
 button {

@@ -1,18 +1,9 @@
+import { useEffect } from "react";
+import { useCities } from "../contexts/CitiesContext";
 import Button from "./Button";
+import Loader from "./Loader";
 import styles from "./City.module.css";
-
-const tempCity = {
-  cityName: "Castello de la Plana",
-  country: "Spain",
-  emoji: "https://flagsapi.com/BE/flat/64.png",
-  date: "2023-08-13T10:20:55.674Z",
-  notes: "",
-  position: {
-    lat: "40.00083226818754",
-    lng: "-0.01721238820203697",
-  },
-  id: 1,
-};
+import { useNavigate, useParams } from "react-router-dom";
 
 function formatDate(date) {
   const tempDate = new Date(date);
@@ -24,8 +15,20 @@ function formatDate(date) {
   return tempDate.toLocaleDateString("vn-VN", option);
 }
 
-function City({ city }) {
-  const { cityName, emoji, date, note } = tempCity;
+function City() {
+  const { currentCity, getCity, isLoading } = useCities();
+  const { cityName, emoji, date, note } = currentCity;
+  const { id } = useParams();
+  const navigate = useNavigate();
+
+  useEffect(
+    function () {
+      getCity(id);
+    },
+    [id]
+  );
+
+  if (isLoading) return <Loader />;
 
   return (
     <div className={styles.city}>
@@ -62,7 +65,9 @@ function City({ city }) {
           </a>
         </h4>
       </div>
-      <Button type="btn--back">&larr; Back</Button>
+      <Button onClick={() => navigate(-1)} type="btn--back">
+        &larr; Back
+      </Button>
     </div>
   );
 }

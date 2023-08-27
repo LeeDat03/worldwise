@@ -1,40 +1,100 @@
 {
   "cities": [
     {
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "https://flagsapi.com/BE/flat/64.png",
-      "date": "2023-08-13T10:20:55.674Z",
-      "notes": "",
+      "cityName": "Hanoi",
+      "country": "Viet Nam",
+      "emoji": "https://flagsapi.com/VN/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:23.959Z",
       "position": {
-        "lat": "40.00083226818754",
-        "lng": "-0.01721238820203697"
+        "lat": "21.054889286591763",
+        "lng": "105.74066162109375"
       },
       "id": 1
     },
     {
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "https://flagsapi.com/BE/flat/64.png",
-      "date": "2023-08-13T10:20:58.331Z",
-      "notes": "",
+      "cityName": "Binh Gia",
+      "country": "Viet Nam",
+      "emoji": "https://flagsapi.com/VN/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:31.176Z",
       "position": {
-        "lat": "39.995280184735435",
-        "lng": "-0.026180164059002038"
+        "lat": "22.07411434734167",
+        "lng": "106.3023367905181"
       },
       "id": 2
     },
     {
-      "cityName": "Castello de la Plana",
-      "country": "Spain",
-      "emoji": "https://flagsapi.com/BE/flat/64.png",
-      "date": "2023-08-13T13:49:43.047Z",
-      "notes": "",
+      "cityName": "Longshan",
+      "country": "China",
+      "emoji": "https://flagsapi.com/CN/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:37.271Z",
       "position": {
-        "lat": "40.00050126508025",
-        "lng": "-0.0073407789568191726"
+        "lat": "26.666144600093077",
+        "lng": "107.07275390625001"
       },
       "id": 3
+    },
+    {
+      "cityName": "Baqing",
+      "country": "China",
+      "emoji": "https://flagsapi.com/CN/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:41.505Z",
+      "position": {
+        "lat": "32.46268243395421",
+        "lng": "94.31213378906251"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Bilaspur",
+      "country": "India",
+      "emoji": "https://flagsapi.com/IN/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:44.862Z",
+      "position": {
+        "lat": "22.03055779626753",
+        "lng": "82.18853075516101"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Daskroi",
+      "country": "India",
+      "emoji": "https://flagsapi.com/IN/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:47.818Z",
+      "position": {
+        "lat": "22.964347730994398",
+        "lng": "72.74464040142831"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Kaka",
+      "country": "Turkmenistan",
+      "emoji": "https://flagsapi.com/TM/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:51.712Z",
+      "position": {
+        "lat": "36.70439988476349",
+        "lng": "60.63249410410353"
+      },
+      "id": 7
+    },
+    {
+      "cityName": "Oktyabr’sk",
+      "country": "Turkmenistan",
+      "emoji": "https://flagsapi.com/TM/flat/64.png",
+      "note": "",
+      "date": "2023-08-27T17:45:55.887Z",
+      "position": {
+        "lat": "42.5486357151768",
+        "lng": "58.60656738281251"
+      },
+      "id": 8
     }
   ]
 }
